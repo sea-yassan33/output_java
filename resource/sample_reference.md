@@ -1,5 +1,8 @@
 # サンプル参考
 
+## 20231104
+**JUnitでprivateメソッドのテストを行う**:[参考]https://qiita.com/11295/items/b632850389831041b987
+
 ## 20231103
 
 **リフレクションでprivateな変数**:[参考](https://qiita.com/11295/items/773e7395889e05f605ae)

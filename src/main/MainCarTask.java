@@ -50,7 +50,7 @@ static CarDto respForm = new CarDto();
 		return respForm;
 	}
 	
-	private static int makerStock() {
+	public static Integer makerStock() {
 		int nam = 0;
 		
 		if(nam == 0) {
