@@ -15,10 +15,10 @@ static CarDto respForm = new CarDto();
 
 	public static void main(String[] args) {
 		
-		CarDto carList = doExcute();
+		respForm = doExcute();
 		
-		if(carList.getCarMakerList().size() !=0) {
-			System.out.println("メーカーの数：" + carList.getCarMakerList().size());
+		if(respForm.getCarMakerList().size() !=0) {
+			System.out.println("メーカーの数：" + respForm.getCarMakerList().size());
 		}else {
 			System.out.println("メーカーの登録はありません。" );
 		}
